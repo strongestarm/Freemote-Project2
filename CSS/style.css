@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'AdiHaus';
+    src: URL('https://assets.codepen.io/6060109/adihaus_regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "AdiHaus";
+    src: url("https://assets.codepen.io/6060109/adihaus_bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+  }
+
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: AdiHaus;
+    background-color:F2F2F2;
+
+}
+
+body{
+    display: flex;
+
+}
+
+h2{
+    margin: 0;
+    font-size: 48px;
+    letter-spacing: 5px;
+
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10%;
+}
+
+p{
+    margin-bottom: 10%;
+    font-weight: 14px;
+}
+
+#logo{
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+ 
+}
+
+#small-image{
+    background-image: url("https://assets.codepen.io/6060109/mobile-shoes.jpg");
+    height: 250px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+} 
+
+#large-image{
+    display: none;
+}
+
+.all{
+    text-align: center;
+    max-width: 450px;
+    margin: auto;
+    
+}
+
+.texts{
+    margin: 10%;
+}
+
+.first-word{
+    color: blue;
+    font-style: italic;
+    font-weight: normal;
+}
+
+
+
+input[type="text"]{
+    width: 80%;
+    box-sizing: border-box;
+    font-size: 20px;
+
+
+}
+ input[ type="submit"]{
+    background: rgb(124,124,124);
+    background: linear-gradient(90deg, rgba(124,124,124,1) 0%, rgba(43,40,40,1) 100%);
+     color: white;
+     box-sizing: border-box;
+     font-size: 20px;
+     border: none;
+     font-weight: 700;
+     width: 60px;
+
+     
+     
+ }
+ input[type="submit"]:hover{
+     cursor: pointer;
+     
+ }
+
+ @media only screen and (min-width:768px){
+
+   
+
+body{
+    background-image: url("https://assets.codepen.io/6060109/waves.png");
+    background-size: cover;
+}   
+h2{
+    font-size: 64px;
+}
+
+#logo{
+    display: block;
+    margin-left: 10%;
+
+
+}
+
+#small-image{
+    display:none;
+}
+
+#large-image{
+    display: block;
+    background-size: cover;
+    background-image: url("https://assets.codepen.io/6060109/shoes.png");
+    width: 50%;  
+
+}
+
+.all{
+    text-align: left;
+
+    
+ }
+
+ 
+
+ 
+
+ form{
+     justify-content: left;
+     height: 50px;
+ }
+    
+ 
+}
+
+
+
+
+
+
